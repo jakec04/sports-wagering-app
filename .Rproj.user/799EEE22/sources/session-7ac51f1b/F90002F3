@@ -1,0 +1,26 @@
+{
+    "id": "F90002F3",
+    "path": "~/rstudio/Sports_wagering/per_bet.R",
+    "project_path": "per_bet.R",
+    "type": "r_source",
+    "hash": "1859562818",
+    "contents": "",
+    "dirty": false,
+    "created": 1763159273577.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "236,0",
+        "scrollLine": "212"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1763160954,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1763160954698,
+    "read_only": false,
+    "read_only_alternatives": []
+}
