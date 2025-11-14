@@ -5,7 +5,7 @@ library(bslib)
 
 TAX_PER_WAGER <- 0.50
 
-nyt_theme <- bs_theme(
+app_theme <- bs_theme(
   version = 5,
   base_font = font_google("Roboto"),
   heading_font = font_google("Roboto"),
@@ -14,14 +14,14 @@ nyt_theme <- bs_theme(
 )
 
 ui <- fluidPage(
-  theme = nyt_theme,
+  theme = app_theme,
   tags$head(
     tags$style(HTML("
       body {
         background-color: #f7f7f7;
         font-family: 'Roboto', sans-serif;
       }
-      .nyt-container {
+      .app-container {
         max-width: 900px;
         margin: 0 auto;
         padding: 30px 15px 60px 15px;
@@ -29,56 +29,56 @@ ui <- fluidPage(
         border-left: 1px solid #e2e2e2;
         border-right: 1px solid #e2e2e2;
       }
-      .nyt-hed {
+      .app-headline {
         font-size: 32px;
         line-height: 1.15;
         margin-bottom: 25px;
         font-weight: 700;
       }
-      .nyt-input-panel {
+      .app-input-panel {
         border-top: 1px solid #e2e2e2;
         border-bottom: 1px solid #e2e2e2;
         padding: 20px 0 16px 0;
         margin-bottom: 30px;
       }
-      .nyt-instruction-bold {
+      .app-instruction {
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 6px;
         color: #222222;
       }
-      .nyt-input-note {
+      .app-input-note {
         font-size: 12px;
         color: #777777;
         margin-top: 4px;
         margin-bottom: 16px;
       }
-      .nyt-big-number {
+      .app-big-number {
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 10px;
       }
-      .nyt-subline {
+      .app-subline {
         font-size: 14px;
         color: #444444;
         margin-bottom: 25px;
       }
-      .nyt-impact-block {
+      .app-impact-block {
         background: #f2f2f2;
         padding: 18px 20px;
         border-radius: 4px;
         margin-bottom: 20px;
       }
-      .nyt-impact-title {
+      .app-impact-title {
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 6px;
       }
-      .nyt-impact-line {
+      .app-impact-line {
         font-size: 15px;
         margin-bottom: 4px;
       }
-      .nyt-note {
+      .app-note {
         font-size: 12px;
         color: #777777;
         margin-top: 10px;
@@ -87,22 +87,22 @@ ui <- fluidPage(
     "))
   ),
 
-  div(class = "nyt-container",
+  div(class = "app-container",
 
       # HEADLINE -------------------------------------------------------------
-      div(class = "nyt-hed", "How Illinois’ New Per-Wager Tax Adds Up for Bettors"),
+      div(class = "app-headline", "How Illinois’ New Per-Wager Tax Adds Up for Bettors"),
 
       # INPUT PANEL -----------------------------------------------------------
       div(
-        class = "nyt-input-panel",
+        class = "app-input-panel",
 
         # Bold instruction inside the panel
         div(
-          class = "nyt-instruction-bold",
+          class = "app-instruction",
           "Enter your betting habits to see how Illinois’ per-wager tax adds up over time."
         ),
         div(
-          class = "nyt-input-note",
+          class = "app-input-note",
           HTML(
             'Default values reflect median weekly betting patterns reported in a 2024
              <a href="https://mattbrownecon.github.io/assets/papers/jmp/sportsbetting.pdf" target="_blank">
@@ -130,21 +130,21 @@ ui <- fluidPage(
       ),
 
       # RESULTS ---------------------------------------------------------------
-      div(class = "nyt-big-number", textOutput("headline_cost")),
-      div(class = "nyt-subline", textOutput("headline_context")),
+      div(class = "app-big-number", textOutput("headline_cost")),
+      div(class = "app-subline", textOutput("headline_context")),
 
       # IMPACT LINES ----------------------------------------------------------
       div(
-        class = "nyt-impact-block",
-        div(class = "nyt-impact-title", "You pay:"),
-        div(class = "nyt-impact-line", textOutput("impact_per_bet")),
-        div(class = "nyt-impact-line", textOutput("impact_per_week")),
-        div(class = "nyt-impact-line", textOutput("impact_per_year"))
+        class = "app-impact-block",
+        div(class = "app-impact-title", "You pay:"),
+        div(class = "app-impact-line", textOutput("impact_per_bet")),
+        div(class = "app-impact-line", textOutput("impact_per_week")),
+        div(class = "app-impact-line", textOutput("impact_per_year"))
       ),
 
       # FOOTNOTE --------------------------------------------------------------
       div(
-        class = "nyt-note",
+        class = "app-note",
         "This calculator shows estimated out-of-pocket costs under Illinois’ per-wager tax. ",
         "It does not account for winnings or losses, parlays, promotional boosts, or other taxes ",
         "proposed at the local or state level. Please bet responsibly. If you or someone you know ",

@@ -3,7 +3,7 @@
     "path": "~/rstudio/Sports_wagering/per_bet.R",
     "project_path": "per_bet.R",
     "type": "r_source",
-    "hash": "1859562818",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1763159273577.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "236,0",
-        "scrollLine": "212"
+        "cursorPosition": "233,1",
+        "scrollLine": "213"
     },
     "folds": "",
-    "lastKnownWriteTime": 1763160954,
+    "lastKnownWriteTime": 1763164245,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1763160954698,
+    "last_content_update": 1763164245667,
     "read_only": false,
     "read_only_alternatives": []
 }
