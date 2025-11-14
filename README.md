@@ -9,7 +9,7 @@ You can view and interact with the live app here:
 
 ---
 
-## 📊 About the Application
+## About 
 
 Illinois is the first state in the U.S. to implement a *per-wager* tax on online sports bets.  
 Under the law:
@@ -26,19 +26,7 @@ This application demonstrates, in simple terms, how that per-wager fee adds up f
 
 Default values reflect median betting habits reported in a **2024 Stanford study** on online sports wagering behavior.
 
----
-
-## 🧮 Features
-
-- Clean, accessible UI using **Shiny** and **bslib**
-- Neutral, explanatory interactive copy appropriate for journalism projects
-- “You pay…” summary box showing:
-  - Effective cost increase per bet
-  - Weekly added tax costs
-  - Annualized totals based on the user’s betting levels
-- Mobile-responsive design where supported
-- Embedded directly into longform reporting or Quarto documents
-
----
-
-## 📁 Repository Structure
+## Developed by Jake Cox
+DePaul University – Center for Journalism Integrity and Excellence
+GitHub: https://github.com/jakec04
+Email: coxja2204@gmail.com
