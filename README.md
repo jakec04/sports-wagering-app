@@ -26,7 +26,7 @@ This application demonstrates, in simple terms, how that per-wager fee adds up f
 
 Default values reflect median betting habits reported in a **2024 Stanford study** on online sports wagering behavior.
 
-## Developed by Jake Cox
-DePaul University – Center for Journalism Integrity and Excellence
-GitHub: https://github.com/jakec04
-Email: coxja2204@gmail.com
+### Developed by Jake Cox 
+- As a project for the DePaul University Center for Journalism Integrity and Excellence
+- GitHub: https://github.com/jakec04
+- Email: coxja2204@gmail.com
