@@ -2,7 +2,7 @@
 
 This repository contains a Shiny web application that illustrates how Illinois’ new per-wager online sports betting tax affects individual bettors. Users can enter their own betting habits to see how the tax accumulates per bet, per week and over longer periods of time.
 
-The app was developed alongside reporting from **DePaul University’s Center for Journalism Integrity and Excellence (CJIE)** on the evolution of Illinois’ sports wagering laws, including the state’s new online per-wager tax enacted in 2024.
+The app was developed alongside reporting from **DePaul University’s Center for Journalism Integrity and Excellence (CJIE)** on the evolution of Illinois’ sports wagering laws, including the state’s new online per-wager tax enacted in 2025.
 
 You can view and interact with the live app here:  
 **https://mq13df-jake0cox.shinyapps.io/Sports_wagering/**
