@@ -5,7 +5,7 @@ account: mq13df-jake0cox
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 16071199
-bundleId: 11180795
+bundleId: 11180982
 url: https://mq13df-jake0cox.shinyapps.io/Sports_wagering/
 version: 1
 asMultiple: FALSE
