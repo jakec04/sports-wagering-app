@@ -170,7 +170,7 @@ ui <- fluidPage(
     div(
       class = "app-note byline",
       HTML(
-        "Developed by <a href='https://jakercox.me/' target='_blank'>Jake Cox</a> / ",
+        "Developed by <a href='https://github.com/jakec04' target='_blank'>Jake Cox</a> / ",
         "<a href='https://communication.depaul.edu/about/initiatives/center-for-journalism-integrity-and-excellence/Pages/default.aspx' target='_blank'>
          DePaul University Center for Journalism Integrity and Excellence</a> in collaboration with ",
         "<span style='white-space: nowrap;'>
